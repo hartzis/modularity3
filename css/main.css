@@ -1,0 +1,17 @@
+.info-form {
+  width: 75%;
+  margin: 0 auto;
+}
+.info-form input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 6px 0;
+  width: 400px;
+}
+.info-form div {
+  text-align: right;
+}
+.info-form .form-label {
+  padding: 0 12px;
+}
