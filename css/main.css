@@ -1,17 +1,46 @@
 .info-form {
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
 }
-.info-form input {
+.input-container {
+  width: 85%;
+}
+.form-input {
+  margin-bottom: 1.35rem;
+  padding: 0.55rem 0;
+  width: 18rem;
+}
+.form-input.form-state {
+  width: 2rem;
+  float: none;
+}
+.form-input.form-city {
+  width: 11rem;
+}
+.form-in-txt {
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-bottom: 15px;
-  padding: 6px 0;
-  width: 400px;
 }
-.info-form div {
+.form-foot-container {
+  width: 18rem;
+  margin-left: 7.5rem;
+}
+.form-foot-container div {
+  margin-bottom: 1.35rem;
+}
+.form-label {
+  float: left;
+  width: 6rem;
+  padding-right: 1.5rem;
   text-align: right;
 }
-.info-form .form-label {
-  padding: 0 12px;
+.form-label.form-state {
+  float: none;
+  padding: 0 1rem;
+}
+.form-submit {
+  background-color: #c8c8c8;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
 }

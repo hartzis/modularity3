@@ -1,21 +1,85 @@
 
-frm-pad = 12px
-frm-mrg = 15px
+frm-pad = .55rem
+frm-mrg = 1.35rem
 
+frm-lbl-pad-right = 1.5rem
+frm-lbl-width = 6rem
 
 .info-form
-	width 75%
-	margin: 0 auto
+	width 100%
+	// text-align left
+	// margin: 0 auto
 
-	input
-		border-radius: 5px
-		border: 1px solid rgb(204,204,204)
-		margin-bottom frm-mrg
-		padding 6px 0
-		width 400px
+.input-container
+	// text-align: right
+	width: 85%
 
+.form-input
+	margin-bottom frm-mrg
+	padding frm-pad 0
+	width: 18rem
+	&.form-state
+		width: 2rem
+		float none
+	&.form-city
+		width 11rem
+
+.form-in-txt
+	border-radius: 5px
+	border: 1px solid rgb(204,204,204)
+
+.form-foot-container
+	width: 18rem
+	margin-left frm-lbl-pad-right+frm-lbl-width
 	div
-		text-align: right
+		margin-bottom frm-mrg
 
-	.form-label
-		padding: 0 frm-pad
+.form-label
+	float: left;
+	width: frm-lbl-width
+	padding-right frm-lbl-pad-right
+	text-align right
+	&.form-state
+		float none
+		padding 0 1rem
+
+.form-submit
+	background-color: rgb(200,200,200);
+	border: 0;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
